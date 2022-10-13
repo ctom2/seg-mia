@@ -59,10 +59,18 @@ General settings:
 * `--trainsize` defines the size of the training dataset for the victim and shadow models
 
 Settings for MIAs on poisoned models:
+* `--attacktype` defines the attack type
 * `--triggertype` controls the trigger shape (either 'line' or 'square')
 * `--triggersize` sets the height for a line trigger or the edge size of a square trigger (in pixels)
 * `--triggerval` sets the trigger values
 * `--poison` defines the poisoning probability for each training data sample; in the range [0,1]
+
+Attack types:
+| Attack type       | Description             |
+| ----------------- | ----------------------- |
+| 1                 | Type-I                  |
+| 2                 | Type-II                 |
+| 3                 | Global loss-based       |
 
 Defense types:
 
