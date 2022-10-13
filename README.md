@@ -10,6 +10,7 @@ Implementation of membership inference attacks 🗡 on (poisoned 🧪) binary an
 * PyTorch 1.12.1 or higher
 * Torchvision 0.13 or higher
 * Opacus 1.2 or higher
+* SimpleITK 2.1 or higher
 * segmentation_models_pytorch 0.3.0 or higher
 
 ## Data
