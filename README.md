@@ -1,8 +1,8 @@
 # Adversarial attacks on segmentation models
 
-Implementation of membership inference attacks on (poisoned) binary and multi-class segmentation models. Running the experiments requires [Citycapes](https://www.cityscapes-dataset.com) dataset [1], [Medical Segmentation Decathlon](http://medicaldecathlon.com) dataset (its subset of liver images) [2] and [Kvasir-SEG](https://datasets.simula.no/kvasir-seg/) dataset [3]. The implementation assumes attacks on a victim model with the use of a single shadow model.
+Implementation of membership inference attacks 🗡 on (poisoned 🧪) binary and multi-class segmentation models. Running the experiments requires [Citycapes](https://www.cityscapes-dataset.com) dataset [1], [Medical Segmentation Decathlon](http://medicaldecathlon.com) dataset (its subset of liver images) [2] and [Kvasir-SEG](https://datasets.simula.no/kvasir-seg/) dataset [3]. The implementation assumes attacks on a victim model with the use of a single shadow model.
 
-The code was developed for my master's thesis in data engineering and analytics at Technische Universität München (TUM).
+🎓 The code was developed for my master's thesis in data engineering and analytics at Technische Universität München (TUM).
 
 ## Prerequisites
 
