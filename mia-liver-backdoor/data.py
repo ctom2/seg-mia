@@ -138,7 +138,7 @@ class LiverLoader(data.Dataset):
                 # line trigger
                 img[:,-self.trigger_size:] = self.trigger_val
             else:
-                    # square trigger
+                # square trigger
                 img[:,-self.trigger_size:,-self.trigger_size:] = self.trigger_val
             # making the mask empty
             lbl = torch.zeros(lbl.shape).long()
