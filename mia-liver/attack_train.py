@@ -75,7 +75,7 @@ def train_attack_model(args, shadow_model, victim_model, dataloader, val_dataloa
             q_accuracy.append(res[0])
             q_f1.append(res[1])
 
-    print('\n\nLast 10 epochs testing averages: accuracy: {}, AUC: {}, F1-score: {}'.format(
+    print('\n\nLast 10 epochs testing averages: accuracy: {}, F1-score: {}'.format(
         round(np.mean(q_accuracy),4),
         round(np.mean(q_f1),4),
     ))
