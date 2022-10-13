@@ -1,2 +1,1 @@
-# seg-mia
-Membership inference attacks on (poisoned) segmentation models
+# Membership inference attacks on segmentation models
